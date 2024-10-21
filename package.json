@@ -1,0 +1,17 @@
+{
+  "name": "kuromoji-sudachi-dict-builder",
+  "version": "1.0.0",
+  "description": "Automatically download and build SudachiDict for kuromoji.js",
+  "main": "automate-sudachi-dict.js",
+  "scripts": {
+    "build-sudachi-dict": "node automate-sudachi-dict.js"
+  },
+  "dependencies": {
+    "kuromoji": "^0.1.2",
+    "node-fetch": "^2.6.7",
+    "unzipper": "^0.10.11"
+  },
+  "volta": {
+    "node": "10.16.3"
+  }
+}
