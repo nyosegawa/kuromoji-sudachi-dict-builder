@@ -32,8 +32,8 @@ cd kuromoji-sudachi-dict-builder
 2. 必要な依存パッケージをインストール
 
 ```bash
-volta install 10.16.3
-volta pin 10.16.3
+volta install node@10.16.3
+volta pin node@10.16.3
 node --version # 10.16.3 になっていることを確認
 npm install
 ```
@@ -48,6 +48,11 @@ npm run build-sudachi-dict
 
 このコマンドを実行すると、Sudachi辞書の最新バージョンをダウンロードし、kuromoji.js互換の辞書を作成します。
 ビルドされた辞書は `kuromoji-dict-sudachi` ディレクトリに出力されます。
+
+## サンプルアプリケーション
+
+NextJS + Mantine v7 でサンプルアプリケーションを用意しています。
+詳細はsample-appのREADME.mdを参照してください。
 
 ## 注意点
 
